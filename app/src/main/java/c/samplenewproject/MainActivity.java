@@ -13,8 +13,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // here is another comment
-        // and here is another one
+        // 1: here is another comment
+        // 2: and here is another one
+        // 3: and another one
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
